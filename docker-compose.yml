@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+        service1:
+            build: './container1'
+            volumes:
+                - "./container1/json_dir:/json_dir"
+                - "./container2/xml_dir:/xml_dir"
+        service2:
+            build: './container2'
+            volumes:
+                - "./container2/xml_dir:/xml_dir"
