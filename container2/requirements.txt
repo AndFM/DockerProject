@@ -1,7 +1,7 @@
 six==1.11.0
 cryptography==3.2
 dicttoxml==1.7.4
-json2xml==3.4.1
+json2xml==3.14.0
 lxml==4.9.1
 pyAesCrypt==0.4.3
 xmltodict==0.11.0
